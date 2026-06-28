@@ -1,0 +1,9 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Ignore local variable files
+terraform.tfvars
+terraform.tfvars.json
