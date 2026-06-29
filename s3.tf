@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "website" {
-  bucket = "static-website-8385"
+  bucket = var.bucket_name
 }
 
 resource "aws_s3_bucket_versioning" "website" {
