@@ -1,8 +1,3 @@
-variable "region" {
-  type = string
-  description = "AWS region name"
-}
-
 variable "bucket_name" {
   type = string
   description = "Name of the s3 bucket"
@@ -11,8 +6,4 @@ variable "bucket_name" {
 variable "domain" {
   type = string
   description = "Your website domain name"
-}
-
-variable "origin_id" {
-  type = string
 }
